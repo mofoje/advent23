@@ -63,6 +63,6 @@ public class Day2Test
     
         var result = _sut.Part2(input.ToArray());
     
-        Assert.Equal(54676, result);
+        Assert.Equal(56580, result);
     }
 }

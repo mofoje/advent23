@@ -32,7 +32,7 @@ public class Day1Test
     public async Task Input1()
     {
         //Arrange
-        var input = File.ReadLines("day1_1.txt");
+        var input = File.ReadLines("Day1/day1_1.txt");
 
         var result = await _sut.Handle(input.ToArray());
 
@@ -60,7 +60,7 @@ public class Day1Test
     [Fact]
     public async Task Input_Day2()
     {
-        var input = File.ReadLines("day1_1.txt");
+        var input = File.ReadLines("Day1/day1_1.txt");
 
         var result = await _sut.Day2(input.ToArray());
 
